@@ -117,10 +117,10 @@ Executed against the live FastAPI server (`POST /api/safest-route`) from start `
 
 | Component | Target / Environment | Live URL |
 |---|---|---|
-| **Frontend Console** | Next.js 14 Production App (Public Tunnel) | [https://dark-trees-speak.loca.lt](https://dark-trees-speak.loca.lt) |
+| **Frontend Console** | Next.js 14 Production App (Public Tunnel) | [https://blue-beds-cheat.loca.lt](https://blue-beds-cheat.loca.lt) |
 | **Frontend Console** | Local Dev / Preview Server | [http://localhost:3000](http://localhost:3000) |
-| **Backend API** | FastAPI Service (Public Tunnel) | [https://chilly-animals-watch.loca.lt](https://chilly-animals-watch.loca.lt) |
+| **Backend API** | FastAPI Service (Public Tunnel) | [https://soft-boxes-boil.loca.lt](https://soft-boxes-boil.loca.lt) |
 | **Backend API** | Local Direct Service | [http://localhost:8000](http://localhost:8000) |
-| **Health & Audit Endpoint** | Pre-Flight Model & Data Audit | [https://chilly-animals-watch.loca.lt/api/health-and-audit](https://chilly-animals-watch.loca.lt/api/health-and-audit) |
-| **Interactive API Docs** | FastAPI Swagger UI | [https://chilly-animals-watch.loca.lt/docs](https://chilly-animals-watch.loca.lt/docs) |
+| **Health & Audit Endpoint** | Pre-Flight Model & Data Audit | [https://soft-boxes-boil.loca.lt/api/health-and-audit](https://soft-boxes-boil.loca.lt/api/health-and-audit) |
+| **Interactive API Docs** | FastAPI Swagger UI | [https://soft-boxes-boil.loca.lt/docs](https://soft-boxes-boil.loca.lt/docs) |
 | **Source Code Repository** | GitHub Version Control | [https://github.com/ankangg/hackathon_2026](https://github.com/ankangg/hackathon_2026) |
