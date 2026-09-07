@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore large foundation model weights (>100MB limit on GitHub)
+croma/CROMA_base.pt
+*.pt
+*.pth
+
+# Ignore large raw satellite datasets (keep scripts and light CSVs)
+data/raw/
+*.nc
+data/sentinel1/patches/
