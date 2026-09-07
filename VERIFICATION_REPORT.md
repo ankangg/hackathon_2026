@@ -110,3 +110,17 @@ Executed against the live FastAPI server (`POST /api/safest-route`) from start `
    Instead of using a static single-day average, `resolve_era5_wind` dynamically slices the 366-day ERA5 NetCDF reanalysis time-series by the requested `hours_offset // 24`, allowing the forecast horizon slider to realistically reflect passing weather fronts.
 4. **Naval Defense Radar Design System (`frontend/globals.css`, `frontend/tailwind.config.ts`)**:
    Applied the exact pitch-deck color tokens: Pitch Dark (`#0E1117`), Surface (`#1A1E24`), Polar Cyan Accent (`#00D2FF`), Neon Mint Route Polyline (`#00FFCC`), Safety Amber Icebergs (`#FFB300`), and Coral Red Hazards (`#FF3B30`).
+
+---
+
+## 6. Live Deployment & Access Gateways
+
+| Component | Target / Environment | Live URL |
+|---|---|---|
+| **Frontend Console** | Next.js 14 Production App (Public Tunnel) | [https://dark-trees-speak.loca.lt](https://dark-trees-speak.loca.lt) |
+| **Frontend Console** | Local Dev / Preview Server | [http://localhost:3000](http://localhost:3000) |
+| **Backend API** | FastAPI Service (Public Tunnel) | [https://chilly-animals-watch.loca.lt](https://chilly-animals-watch.loca.lt) |
+| **Backend API** | Local Direct Service | [http://localhost:8000](http://localhost:8000) |
+| **Health & Audit Endpoint** | Pre-Flight Model & Data Audit | [https://chilly-animals-watch.loca.lt/api/health-and-audit](https://chilly-animals-watch.loca.lt/api/health-and-audit) |
+| **Interactive API Docs** | FastAPI Swagger UI | [https://chilly-animals-watch.loca.lt/docs](https://chilly-animals-watch.loca.lt/docs) |
+| **Source Code Repository** | GitHub Version Control | [https://github.com/ankangg/hackathon_2026](https://github.com/ankangg/hackathon_2026) |
