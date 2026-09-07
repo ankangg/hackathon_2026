@@ -12,3 +12,8 @@ croma/CROMA_base.pt
 data/raw/
 *.nc
 data/sentinel1/patches/
+
+# Node & Next.js build artifacts
+node_modules/
+.next/
+*.log
